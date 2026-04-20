@@ -2611,34 +2611,34 @@ note+=`Client Updated Email: ${val("main7")}\n`;
 if(currentTemplate==="Advance Request"){
 
 note+=`Advance Request -  ${val("main2")}\n`;
-note+=`CC NUMBER: ${val("main3")}\n`;
-note+=line("LEGAL","legal");
-note+=line("GOOD DEP. SCHED.","dep");
-note+=line("FIRST/LAST ACC","1st");
-note+=line("B/H UPDATED","b/h");
-note+=line("UNEMPLOYED?","jobless");
-note+=line("COMMITED TO DEPOSITS","deposit");
-note+=`TOTAL FEES CLEARED: ${val("main31")}\n`;
-note+=`AMOUNT NEEDED: ${val("main5")}\n`;
-note+=`RECOUP  TIME: ${val("main6")}\n`;
-note+=`DS LINK: ${val("main7")}\n`;
+note+=`CC Number: ${val("main3")}\n`;
+note+=line("Legal","legal");
+note+=line("Good Dep. Sched","dep");
+note+=line("First/Last Acc","1st");
+note+=line("B/H Updated","b/h");
+note+=line("Unemployed?","jobless");
+note+=line("Committed to Deposits?","deposit");
+note+=`Total Fess Cleared: ${val("main31")}\n`;
+note+=`Amount Needed: ${val("main5")}\n`;
+note+=`Recoup Time: ${val("main6")}\n`;
+note+=`DS Link: ${val("main7")}\n`;
 }
 
 if(currentTemplate==="Add Debt Request"){
 
 note+=`Add Debt Request -  ${val("main2")}\n`;
-note+=`CREDITOR NAME: ${val("main333")}\n`;
-note+=`CC NUMBER: ${val("main3")}\n`;
-note+=`ACCOUNT BALANCE: ${val("main31")}\n`;
-note+=`ACCOUNT NUMBER: ${val("main51")}\n`;
-note+=`CASE NUMBER: ${val("main5")}\n`;
-note+=line("DEBT NOT ENROLLED?","legal");
-note+=line("DEBT ACCEPTABLE?","dep");
-note+=line("DEBT NOT IN LEGAL STATUS?","1st");
-note+=line("DEBT IS UNSECURED?","b/h");
-note+=line("VERIFIED DEBT AMOUNT?","jobless");
-note+=line("PS REFRESH NEEDED?","deposit");
-note+=line("CREDITOR STATEMENT SENT","state");
+note+=`Creditor Name: ${val("main333")}\n`;
+note+=`CC Number: ${val("main3")}\n`;
+note+=`Account Balance: ${val("main31")}\n`;
+note+=`Account Number: ${val("main51")}\n`;
+note+=`Case Number: ${val("main5")}\n`;
+note+=line("Debt Not Enrolled?","legal");
+note+=line("Debt Acceptable?","dep");
+note+=line("Debt Not in Legal Status?","1st");
+note+=line("Debt is Unsecured?","b/h");
+note+=line("Verified Debt Amount?","jobless");
+note+=line("PS Refresh Needed","deposit");
+note+=line("Creditor Statement Sent?","state");
 note+=`DS LINK: ${val("main7")}\n`;
 }
 
@@ -3248,6 +3248,32 @@ Clear
 Your creditor agreed to accept payments this way, so that’s the setup we’re working with. The good news is, the fee comes straight out of your DSA, so you don’t have to do anything extra, just keep making your deposits and everything stays on track.</i></p>
 </div>
 
+<div id="confidenceArticle">
+<h2>Script - Trust Issues/Hesitant/Hesitations in Program</h2>
+
+<p><b>Client is Hesitatnt on the Program/Has Trust Issues due to Previous Agents</b> <br><br>
+<i>C: What if this program doesn't work? Esp the creditors, still, have the final say towards negotiations 
+<br>
+CS: Hm. That's actually a fair question. I would be more than happy to answer that. Tell me, how would you know if it's working or not?
+
+(Provide C proper information related to his/her concerns regarding the program. Focus on providing positive rebuttals)
+<br><br>
+C: I'm just worried I'll waste time and money without getting results.
+<br>
+CS: I get you're concerned. But guess what, we've worked with thousands of people in your exact position. What makes you think you'd be different? 
+
+<br><br>
+C: "I guess it could work, but can you guarantee the outcome?"
+<br>
+CS: Nobody can guarantee your results except you. What we do is give you everything you need to SUCEED, and ONLY IN THIS PROGRAM, but only if you actually execute. Can you commit to doing that? (Then explain what C needs to know)
+<br><br>
+C: Yeah, but I still don't want to throw money away, esp those fees
+<br>
+CS: Everyone worries about the risk of joining this program. But what's the cost of staying exactly where you are? If six months from now nothing's changed, you still owe the same creditors, you haven't paid any single one of them, and interests are piling up, same issues, same frustration. What's that actually costing you?
+<br>
+Your creditor agreed to accept payments this way, so that’s the setup we’re working with. The good news is, the fee comes straight out of your DSA, so you don’t have to do anything extra, just keep making your deposits and everything stays on track.</i></p>
+</div>
+
 <div id="StipfeeArticle">
 <h2>STIP/Stipulations Documents</h2>
 
@@ -3279,7 +3305,7 @@ That's a good question! It’s basically a legal document which serves as a writ
 </div>
 
 <div id="OtherfeesArticle">
-<h2>Other Fees/Hidden Fees</h2>
+<h2>Script - Other Fees/Hidden Fees</h2>
 
 <p><b>What are these "hidden fees" that you charge into my account?
 </b>
@@ -3356,7 +3382,7 @@ Open again
 </div>
 
 <div id="ProgramArticle">
-<h2>How the NDR Works</h2>
+<h2>Script - How the NDR Works</h2>
 
 <p><b>How does your program works? What do I need to expect?</b>
 <br><br>
@@ -3396,11 +3422,11 @@ If you're your still hesitant and would like to check for some references, you m
 </div>
 
 <div id="LegalnoticeArticle">
-<h2>Legal Notices and Threats</h2>
+<h2>Script - Legal Notices and Threats</h2>
 
 <p><b>Why am I receiving these legal notices? I thought I won't get sued since I enrolled the in the program?</b>
 <br><br>
-<i>I definitely get your concern in receiving these kind of notices. Just to set proper expectations, legal action is still a possibility even during an active settlement, the good thing is that your settlement significantly reduces that risk. Our team diligently works to keep negotiations moving forward to resolve all of your accounts as quickly as possible. If any legal developments occur, we'll guide you through the next steps and continue working toward a resolution, just send us the document as soon as you receive it so we can check it out for you. You're not alone in this, we will help you every step of the way.</i>
+<i>I definitely get your concern in receiving these kind of notices. Just to set proper expectations, legal action is still a possibility even during an active settlement, the good thing is that your settlement significantly reduces that risk.<br> Our team diligently works to keep negotiations moving forward to resolve all of your accounts as quickly as possible. If any legal developments occur, we'll guide you through the next steps and continue working toward a resolution, just send us the document as soon as you receive it so we can check it out for you. You're not alone in this, we will help you every step of the way.</i>
 </p>
 </div>
 
@@ -3414,7 +3440,7 @@ If you're your still hesitant and would like to check for some references, you m
 On your email, check one of our emails. You can see on the upper right side of our emails a blue "Log In" button. Click that button and you'll be redirected to our Portal. (Send client a CS Number and Email if she can't find our emails)
 
 <br><br><b>Create Client Portal Account</b><br>
-Great! I would be more than happy to help you out with that! So first off, let's create your account. (Go to drop down arrow beside update banking > create cclient portal)<br>
+Great! I would be more than happy to help you out with that! So first off, let's create your account. (Go to drop down arrow beside update banking > create client portal)<br>
 Then, in order for you to log in, we'll be using your email that we registered into the program as a username. <br>
 Next is that, I'll be sending you in that email a "client portal account navigation link", from which it contains an instruction on how you will create a password to log in. (Go to drop down arrow beside update banking > client portal help > click yes/finish)<br>
 You should expect to receive the email within 24hrs. Once you receive it, follow the instructions inside until the end until you can fully log in to your account!
@@ -3514,7 +3540,7 @@ https://ndr.mcoutput.com/ndr/Content/Topics/Articles/Client%20Success/Client%20M
 </div>
 
 <div id="notworkingArticle">
-<h2>Strategy - SIF (C not working)</h2>
+<h2>Script - SIF (C not working)</h2>
 
 <p><b>"I don't have a work right now! And your'e still aksing for money?"</b>
 <br><br>
@@ -3527,7 +3553,7 @@ https://ndr.mcoutput.com/ndr/Content/Topics/Articles/Client%20Success/Client%20M
 </div>
 
 <div id="askngforfundArticle">
-<h2>Strategy - SIF (Why we need to add additional funds)</h2>
+<h2>Script - SIF (Why we need to add additional funds)</h2>
 
 <p><b>"Why would you ask me to add additional funds now with what’s going on with [ hardship reason ]?"</b>
 <br><br>
@@ -3557,7 +3583,7 @@ If the client states they do not want to be asked for additional funds again due
 </div>
 
 <div id="thoughtArticle">
-<h2>Strategy - SIF (C Thought that He/She Doesn't Need to Add Funds)</h2>
+<h2>Script - SIF (C Thought that He/She Doesn't Need to Add Funds)</h2>
 
 <p><b>"I was told when I first started this program that I wouldn't have to add any additional funds!"</b>
 <br><br>
@@ -3568,7 +3594,7 @@ Supposedly, that should be the case, but it just so happened that this specific 
 </div>
 
 <div id="hardshiptArticle">
-<h2>Strategy - SIF ("I thought this is a Hardship Program?")</h2>
+<h2>Script - SIF ("I thought this is a Hardship Program?")</h2>
 
 <p><b>"I was told when I first started this program that it is a Hardship Program, but why are you asking for more money knowing my situation?"</b>
 <br><br>
